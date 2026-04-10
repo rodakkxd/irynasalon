@@ -407,7 +407,8 @@ section {
 
 .about-image img {
     width: 100%;
-    height: auto;
+    aspect-ratio: 4/5;
+    object-fit: cover;
     display: block;
     position: relative;
     z-index: 2;

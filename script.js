@@ -63,7 +63,7 @@ reveal();
 // Iryna Image Slider (zmienia zdjęcie co 4 sekundy)
 const irynaImage = document.getElementById('iryna-image');
 if (irynaImage) {
-    const images = ['iryna1.jpg', 'iryna2.jpg', 'iryna3.jpg', 'iryna4.jpg'];
+    const images = ['iryna1.jpg', 'iryna2.jpg', 'iryna3.JPG', 'iryna4.jpg'];
     let currentImageIndex = 0;
 
     setInterval(() => {

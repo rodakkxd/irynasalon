@@ -932,6 +932,11 @@ footer p {
         display: flex;
     }
 
+    .hero-section {
+        background-attachment: scroll; /* Fix for iOS background cover bug */
+        background-position: center top;
+    }
+
     .hero-content {
         padding: 0 25px;
         margin-top: 80px; /* Zapobiega nachodzeniu na logo IREN */

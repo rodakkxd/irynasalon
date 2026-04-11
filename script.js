@@ -1,3 +1,20 @@
+// Preloader logic
+window.addEventListener('load', () => {
+    const preloader = document.getElementById('preloader');
+    if (preloader) {
+        // Minimalny czas pokazywania przepięknego logo
+        setTimeout(() => {
+            preloader.classList.add('fade-out');
+            document.body.classList.remove('no-scroll');
+            
+            // Usuń z DOM aby nie blokował kliknięć na podkładzie
+            setTimeout(() => {
+                preloader.remove();
+            }, 800);
+        }, 800);
+    }
+});
+
 // Scroll based navbar restyling
 window.addEventListener('scroll', () => {
     const navbar = document.getElementById('navbar');
